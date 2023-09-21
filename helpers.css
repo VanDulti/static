@@ -7,8 +7,8 @@
   hyphens: auto;
 }
 
-// this will only break extremely long words and, in combination with 
-.wrap use hyphenation for this wrapping
+/* this will only break extremely long words and, in combination with 
+.wrap use hyphenation for this wrapping */
 .smart-wrap {
   -ms-word-break: keep-all;
   word-break: keep-all;
