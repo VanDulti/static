@@ -1,0 +1,17 @@
+.wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -ms-hyphens: auto;
+  -epub-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+// this will only break extremely long words and, in combination with 
+.wrap use hyphenation for this wrapping
+.smart-wrap {
+  -ms-word-break: keep-all;
+  word-break: keep-all;
+  word-wrap: anywhere;
+  overflow-wrap: anywhere;
+}
